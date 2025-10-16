@@ -36,3 +36,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+# Maven
+.mvn/
+
+# OS
+Thumbs.db
