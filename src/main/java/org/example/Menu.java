@@ -12,9 +12,9 @@ public class Menu {
     }
 
     public void displayMenu() {
-        System.out.println("\n" + "=".repeat(40));
-        System.out.println("      CURRENCY CONVERTER APP");
-        System.out.println("=".repeat(40));
+        System.out.println("\n" + "=".repeat(60));
+        System.out.println("      CURRENCY CONVERTER APP BY MOHAMAD NOUR");
+        System.out.println("=".repeat(60));
         System.out.println("1. Convert SEK to USD");
         System.out.println("2. Convert USD to SEK");
         System.out.println("3. Convert SEK to EUR");
@@ -22,7 +22,7 @@ public class Menu {
         System.out.println("5. Convert USD to EUR");
         System.out.println("6. Convert EUR to USD");
         System.out.println("0. Exit");
-        System.out.println("=".repeat(40));
+        System.out.println("=".repeat(60));
     }
 
     public int getMenuChoice() {
